@@ -1,5 +1,21 @@
 # 选择排序、插入排序、希尔排序、归并排序、快速排序、堆排序Python实现
 
+## 冒泡排序
+
+```python
+def bubble_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    for i in range(len(arr) - 1, 0, -1):
+        flag = False
+        for index in range(i):
+            if arr[index] > arr[index + 1]:
+                arr[index], arr[index + 1] = arr[index + 1], arr[index]
+                flag = True
+        if not flag:
+            break
+```
+
 ## 选择排序
 
 ``` python
@@ -128,6 +144,5 @@ def heapify(arr, length, i):
     if largest != i:
         arr[i], arr[largest] = arr[largest], arr[i]
         heapify(arr, length, largest)
-
 ```
 
