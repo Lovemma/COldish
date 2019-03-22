@@ -110,3 +110,6 @@ Pipfile.lock
 /node_modules/
 /app/static/upload/
 /profile.json
+
+# Mac file
+.DS_Store
