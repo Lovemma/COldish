@@ -15,6 +15,7 @@
 [](python-syntax/)
 
 ## 算法与数据结构
+[Python 常用的内置算法与数据结构](algorithm-and-data-structure/python-built-in-data-structure.md)
 
 ## 编程范式
 
